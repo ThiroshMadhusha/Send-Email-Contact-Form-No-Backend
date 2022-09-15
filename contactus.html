@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact US</title>
+    <link rel="stylesheet" href="contactus.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="https://formspree.io/f/xqkjpbey" method="POST">
+        <h3>Get In Touch</h3>
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter Your Name"
+          name="Name"
+          required
+        />
+        <input
+          type="email"
+          id="email"
+          name="Email"
+          placeholder="Enter Email Address"
+          required
+        />
+        <input
+          type="text"
+          id="phone"
+          name="Phone"
+          placeholder="Enter Your Phone Number"
+          required
+        />
+
+        <textarea
+          id="message"
+          rows="10"
+          name="Message"
+          placeholder="How Can We Help You.?"
+        ></textarea>
+
+        <button id="button" type="submit">Send Message</button>
+      </form>
+    </div>
+  </body>
+</html>
